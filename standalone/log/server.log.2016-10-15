@@ -1,0 +1,1129 @@
+2016-10-15 09:24:01,871 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2016-10-15 09:24:03,819 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-10-15 09:24:04,008 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) starting
+2016-10-15 09:24:04,009 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	http.nonProxyHosts = localhost,127.0.0.1,Mira-PC
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Apps\wildfly-10.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_91\jre
+	java.io.tmpdir = C:\Users\Mira\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Users\Mira\AppData\Roaming\npm;C:\Users\Mira\AppData\Local\Microsoft\WindowsApps;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_91-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_91
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.91-b14
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Apps\wildfly-10.0.0.Final
+	jboss.host.name = mira-pc
+	jboss.http.port = 8080
+	jboss.management.http.port = 9990
+	jboss.modules.dir = C:\Apps\wildfly-10.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = mira-pc
+	jboss.qualified.host.name = mira-pc
+	jboss.server.base.dir = C:\Apps\wildfly-10.0.0.Final\standalone
+	jboss.server.config.dir = C:\Apps\wildfly-10.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Apps\wildfly-10.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Apps\wildfly-10.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Apps\wildfly-10.0.0.Final\standalone\log
+	jboss.server.name = mira-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Apps\wildfly-10.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Apps\wildfly-10.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Apps\wildfly-10.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Apps\wildfly-10.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_91\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Apps\wildfly-10.0.0.Final\jboss-modules.jar -mp C:\Apps\wildfly-10.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Apps\wildfly-10.0.0.Final -c standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = CZ
+	user.dir = C:\Apps\wildfly-10.0.0.Final\bin
+	user.home = C:\Users\Mira
+	user.language = cs
+	user.name = Mira
+	user.script = 
+	user.timezone = Europe/Prague
+	user.variant = 
+2016-10-15 09:24:04,010 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=standalone.bat -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,Mira-PC -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.http.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=C:\Apps\wildfly-10.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Apps\wildfly-10.0.0.Final\standalone\configuration/logging.properties 
+2016-10-15 09:24:16,406 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found SmartHome-1.0.war in deployment directory. To trigger deployment create a file called SmartHome-1.0.war.dodeploy
+2016-10-15 09:24:16,494 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-10-15 09:24:16,611 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.4.Final
+2016-10-15 09:24:16,685 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.4.Final
+2016-10-15 09:24:16,957 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.18.Final
+2016-10-15 09:24:17,007 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-10-15 09:24:17,008 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-10-15 09:24:17,013 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-10-15 09:24:17,006 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-10-15 09:24:17,069 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-10-15 09:24:17,053 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2016-10-15 09:24:17,119 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-10-15 09:24:17,121 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-10-15 09:24:17,183 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2016-10-15 09:24:17,791 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-10-15 09:24:17,851 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-10-15 09:24:18,026 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2016-10-15 09:24:18,029 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-10-15 09:24:18,312 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.3.15.Final starting
+2016-10-15 09:24:18,313 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.3.15.Final starting
+2016-10-15 09:24:19,339 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\Apps\wildfly-10.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2016-10-15 09:24:19,465 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2016-10-15 09:24:19,467 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2016-10-15 09:24:19,949 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2016-10-15 09:24:20,119 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2016-10-15 09:24:20,117 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2016-10-15 09:24:20,123 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-10-15 09:24:20,699 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Apps\wildfly-10.0.0.Final\standalone\deployments
+2016-10-15 09:24:20,703 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "SmartHome-1.0.war" (runtime-name: "SmartHome-1.0.war")
+2016-10-15 09:24:20,703 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "mysql-connector-java-5.1.36.jar" (runtime-name: "mysql-connector-java-5.1.36.jar")
+2016-10-15 09:24:22,844 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2016-10-15 09:24:22,844 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2016-10-15 09:24:22,844 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2016-10-15 09:24:23,412 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
+2016-10-15 09:24:23,687 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for persistence
+2016-10-15 09:24:24,113 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-10-15 09:24:24,115 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2016-10-15 09:24:24,204 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.36.jar_com.mysql.jdbc.Driver_5_1
+2016-10-15 09:24:24,204 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.36.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2016-10-15 09:24:24,211 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/jdbc/smarthome]
+2016-10-15 09:24:24,237 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'SmartHome-1.0.war#persistence'
+2016-10-15 09:24:24,565 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: persistence
+	...]
+2016-10-15 09:24:25,258 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment SmartHome-1.0.war
+2016-10-15 09:24:25,862 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 58) HHH000412: Hibernate Core {5.0.7.Final}
+2016-10-15 09:24:25,872 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000206: hibernate.properties not found
+2016-10-15 09:24:25,873 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000021: Bytecode provider name : javassist
+2016-10-15 09:24:25,875 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.2.3.Final
+2016-10-15 09:24:25,992 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 58) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-10-15 09:24:26,002 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 58) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-15 09:24:26,198 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'RoomDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:app/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:module/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:global/SmartHome-1.0/RoomDaoImpl
+	java:app/SmartHome-1.0/RoomDaoImpl
+	java:module/RoomDaoImpl
+
+2016-10-15 09:24:26,198 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'WebTargetProducer' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:app/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:module/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:global/SmartHome-1.0/WebTargetProducer
+	java:app/SmartHome-1.0/WebTargetProducer
+	java:module/WebTargetProducer
+
+2016-10-15 09:24:26,199 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'RoleDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:app/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:module/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:global/SmartHome-1.0/RoleDaoImpl
+	java:app/SmartHome-1.0/RoleDaoImpl
+	java:module/RoleDaoImpl
+
+2016-10-15 09:24:26,199 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'RestServiceImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:app/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:module/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:global/SmartHome-1.0/RestServiceImpl
+	java:app/SmartHome-1.0/RestServiceImpl
+	java:module/RestServiceImpl
+
+2016-10-15 09:24:26,199 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'UserDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:app/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:module/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:global/SmartHome-1.0/UserDaoImpl
+	java:app/SmartHome-1.0/UserDaoImpl
+	java:module/UserDaoImpl
+
+2016-10-15 09:24:26,702 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:24:26,704 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:24:26,705 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:24:26,706 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:24:26,955 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: SmartHome-1.0.war
+2016-10-15 09:24:27,163 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.3.2 (Final)
+2016-10-15 09:24:27,227 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment SmartHome-1.0.war
+2016-10-15 09:24:27,484 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started client-mappings cache from ejb container
+2016-10-15 09:24:27,752 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'SmartHome-1.0.war#persistence'
+2016-10-15 09:24:29,199 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 58) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:350)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:285)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1319)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:496)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:626)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:598)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:590)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:429)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:747)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:138)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:66)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:234)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:208)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:217)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:667)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:319)
+	... 36 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 49 more
+
+2016-10-15 09:24:29,269 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator] (ServerService Thread Pool -- 58) HHH000342: Could not obtain connection to query metadata : javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:/jdbc/smarthome
+2016-10-15 09:24:29,288 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 58) MSC000001: Failed to start service jboss.persistenceunit."SmartHome-1.0.war#persistence": org.jboss.msc.service.StartException in service jboss.persistenceunit."SmartHome-1.0.war#persistence": org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:172)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:667)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:244)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:208)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:217)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	... 7 more
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:234)
+	... 19 more
+
+2016-10-15 09:24:29,304 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "SmartHome-1.0.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"SmartHome-1.0.war#persistence\"" => "org.jboss.msc.service.StartException in service jboss.persistenceunit.\"SmartHome-1.0.war#persistence\": org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+    Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+    Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set"}}
+2016-10-15 09:24:29,395 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "mysql-connector-java-5.1.36.jar" (runtime-name : "mysql-connector-java-5.1.36.jar")
+2016-10-15 09:24:29,398 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "SmartHome-1.0.war" (runtime-name : "SmartHome-1.0.war")
+2016-10-15 09:24:29,401 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."SmartHome-1.0.war#persistence": org.jboss.msc.service.StartException in service jboss.persistenceunit."SmartHome-1.0.war#persistence": org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+
+2016-10-15 09:24:29,637 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-10-15 09:24:29,637 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-10-15 09:24:29,637 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started (with errors) in 29799ms - Started 488 of 811 services (48 services failed or missing dependencies, 391 services are lazy, passive or on-demand)
+2016-10-15 09:24:29,719 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'SmartHome-1.0.war#persistence'
+2016-10-15 09:24:29,771 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment SmartHome-1.0.war (runtime-name: SmartHome-1.0.war) in 63ms
+2016-10-15 09:24:29,775 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 19) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2016-10-15 09:24:29,909 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "SmartHome-1.0.war" (runtime-name: "SmartHome-1.0.war")
+2016-10-15 09:24:29,917 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."SmartHome-1.0.war".WeldBootstrapService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".WeldInstantiator, service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".WeldInstantiator, service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.WeldInterceptorBindingsService, service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.WeldInterceptorBindingsService, WFLYCTL0208: ... and 20 more ] 
+      service jboss.deployment.unit."SmartHome-1.0.war".WeldStartService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".WeldInstantiator, service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".WeldInstantiator, service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.WeldInterceptorBindingsService, service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.WeldInterceptorBindingsService, WFLYCTL0208: ... and 21 more ] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".moduleDeploymentRuntimeInformationStart, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.VIEW."cz.bartos.smarthome.service.RestService".LOCAL (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.WeldInterceptorBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.WeldInstantiator] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.ejb.non-functional-timerservice (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".moduleDeploymentRuntimeInformationStart, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.VIEW."cz.bartos.smarthome.dao.RoleDao".LOCAL (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.WeldInterceptorBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.WeldInstantiator] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.ejb.non-functional-timerservice (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".moduleDeploymentRuntimeInformationStart, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.VIEW."cz.bartos.smarthome.dao.RoomDao".LOCAL (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.WeldInterceptorBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.WeldInstantiator] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.ejb.non-functional-timerservice (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".moduleDeploymentRuntimeInformationStart, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.VIEW."cz.bartos.smarthome.dao.UserDao".LOCAL (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.WeldInterceptorBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.WeldInstantiator] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.ejb.non-functional-timerservice (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".moduleDeploymentRuntimeInformationStart, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.VIEW."cz.bartos.smarthome.service.WebTargetProducer".LOCAL (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.WeldInterceptorBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.WeldInstantiator] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.ejb.non-functional-timerservice (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".CREATE (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".ee.ComponentRegistry (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START, service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".START, service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START, service jboss.deployment.unit."SmartHome-1.0.war".WeldStartService, WFLYCTL0208: ... and 14 more ] 
+      service jboss.deployment.unit."SmartHome-1.0.war".moduleDeploymentRuntimeInformation (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START, service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START, service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START, service jboss.deployment.unit."SmartHome-1.0.war".moduleDeploymentRuntimeInformationStart, WFLYCTL0208: ... and 3 more ] 
+      service jboss.naming.context.java.app."SmartHome-1.0".env (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".BeanManager (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultContextService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultDataSource (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedExecutorService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedScheduledExecutorService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedThreadFactory (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".EJBContext (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".TimerService (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".TransactionSynchronizationRegistry (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".UserTransaction (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.RoleDaoImpl".entityManager (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService, service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.RoomDaoImpl".manager (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService, service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.UserDaoImpl".entityManager (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService, service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START] 
+      service jboss.persistenceunit."SmartHome-1.0.war#persistence" (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START, service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".START, service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.RoleDaoImpl".entityManager, service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START, WFLYCTL0208: ... and 17 more ] 
+      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0" (missing) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0"] 
+      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".codec (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".session (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service org.wildfly.request-controller.control-point."SmartHome-1.0.war".undertow (missing) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."SmartHome-1.0.war#persistence"
+
+2016-10-15 09:24:34,532 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found SmartHome-1.0.war in deployment directory. To trigger deployment create a file called SmartHome-1.0.war.dodeploy
+2016-10-15 09:24:34,539 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "SmartHome-1.0.war" (runtime-name: "SmartHome-1.0.war")
+2016-10-15 09:24:34,820 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for persistence
+2016-10-15 09:24:34,894 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 19) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'SmartHome-1.0.war#persistence'
+2016-10-15 09:24:34,894 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 19) HHH000204: Processing PersistenceUnitInfo [
+	name: persistence
+	...]
+2016-10-15 09:24:34,905 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 19) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-10-15 09:24:34,936 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment SmartHome-1.0.war
+2016-10-15 09:24:35,015 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'RoomDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:app/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:module/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:global/SmartHome-1.0/RoomDaoImpl
+	java:app/SmartHome-1.0/RoomDaoImpl
+	java:module/RoomDaoImpl
+
+2016-10-15 09:24:35,015 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'WebTargetProducer' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:app/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:module/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:global/SmartHome-1.0/WebTargetProducer
+	java:app/SmartHome-1.0/WebTargetProducer
+	java:module/WebTargetProducer
+
+2016-10-15 09:24:35,015 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'RoleDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:app/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:module/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:global/SmartHome-1.0/RoleDaoImpl
+	java:app/SmartHome-1.0/RoleDaoImpl
+	java:module/RoleDaoImpl
+
+2016-10-15 09:24:35,015 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'RestServiceImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:app/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:module/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:global/SmartHome-1.0/RestServiceImpl
+	java:app/SmartHome-1.0/RestServiceImpl
+	java:module/RestServiceImpl
+
+2016-10-15 09:24:35,016 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'UserDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:app/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:module/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:global/SmartHome-1.0/UserDaoImpl
+	java:app/SmartHome-1.0/UserDaoImpl
+	java:module/UserDaoImpl
+
+2016-10-15 09:24:35,449 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 19) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:24:35,455 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 19) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:24:35,457 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 19) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:24:35,457 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 19) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:24:35,473 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 19) WFLYCLINF0002: Started client-mappings cache from ejb container
+2016-10-15 09:24:35,700 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0006: Starting Services for CDI deployment: SmartHome-1.0.war
+2016-10-15 09:24:35,705 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0009: Starting weld service for deployment SmartHome-1.0.war
+2016-10-15 09:24:35,736 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 19) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'SmartHome-1.0.war#persistence'
+2016-10-15 09:24:36,742 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 19) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:350)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:285)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1319)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:496)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:626)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:598)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:590)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:429)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:747)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:138)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:66)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:234)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:208)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:217)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:667)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:319)
+	... 36 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 49 more
+
+2016-10-15 09:24:36,763 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator] (ServerService Thread Pool -- 19) HHH000342: Could not obtain connection to query metadata : javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:/jdbc/smarthome
+2016-10-15 09:24:36,765 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 19) MSC000001: Failed to start service jboss.persistenceunit."SmartHome-1.0.war#persistence": org.jboss.msc.service.StartException in service jboss.persistenceunit."SmartHome-1.0.war#persistence": org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:172)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:667)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:244)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:208)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:217)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	... 7 more
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:234)
+	... 19 more
+
+2016-10-15 09:24:36,774 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "SmartHome-1.0.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"SmartHome-1.0.war#persistence\"" => "org.jboss.msc.service.StartException in service jboss.persistenceunit.\"SmartHome-1.0.war#persistence\": org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+    Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+    Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set"}}
+2016-10-15 09:24:36,857 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "SmartHome-1.0.war" (runtime-name : "SmartHome-1.0.war")
+2016-10-15 09:24:36,859 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0185:    Newly corrected services:
+      service jboss.deployment.unit."SmartHome-1.0.war".WeldBootstrapService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".WeldStartService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.VIEW."cz.bartos.smarthome.service.RestService".LOCAL (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.ejb.non-functional-timerservice (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.VIEW."cz.bartos.smarthome.dao.RoleDao".LOCAL (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.ejb.non-functional-timerservice (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.VIEW."cz.bartos.smarthome.dao.RoomDao".LOCAL (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.ejb.non-functional-timerservice (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.VIEW."cz.bartos.smarthome.dao.UserDao".LOCAL (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.ejb.non-functional-timerservice (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.VIEW."cz.bartos.smarthome.service.WebTargetProducer".LOCAL (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.ejb.non-functional-timerservice (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".START (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".ee.ComponentRegistry (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".moduleDeploymentRuntimeInformation (new available)
+      service jboss.naming.context.java.app."SmartHome-1.0".env (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".BeanManager (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultContextService (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultDataSource (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedExecutorService (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedScheduledExecutorService (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedThreadFactory (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".EJBContext (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".TimerService (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".TransactionSynchronizationRegistry (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".UserTransaction (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.RoleDaoImpl".entityManager (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.RoomDaoImpl".manager (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.UserDaoImpl".entityManager (new available)
+      service jboss.persistenceunit."SmartHome-1.0.war#persistence" (new available)
+      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0" (new available)
+      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService (new available)
+      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".codec (new available)
+      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".session (new available)
+      service org.wildfly.request-controller.control-point."SmartHome-1.0.war".undertow (new available)
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."SmartHome-1.0.war#persistence": org.jboss.msc.service.StartException in service jboss.persistenceunit."SmartHome-1.0.war#persistence": org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+
+2016-10-15 09:24:46,457 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("deployment" => "SmartHome-1.0.war"),
+    ("subsystem" => "ejb3"),
+    ("singleton-bean" => "WebTargetProducer")
+]) - failure description: "WFLYEJB0370: EJB component for address [
+    (\"deployment\" => \"SmartHome-1.0.war\"),
+    (\"subsystem\" => \"ejb3\"),
+    (\"singleton-bean\" => \"WebTargetProducer\")
+] is in 
+ state DOWN, must be in state UP"
+2016-10-15 09:24:46,991 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 19) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'SmartHome-1.0.war#persistence'
+2016-10-15 09:24:47,016 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 19) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2016-10-15 09:24:47,024 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment SmartHome-1.0.war (runtime-name: SmartHome-1.0.war) in 36ms
+2016-10-15 09:24:47,025 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "SmartHome-1.0.war" (runtime-name: "SmartHome-1.0.war")
+2016-10-15 09:24:47,358 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for persistence
+2016-10-15 09:24:47,407 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 19) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'SmartHome-1.0.war#persistence'
+2016-10-15 09:24:47,407 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 19) HHH000204: Processing PersistenceUnitInfo [
+	name: persistence
+	...]
+2016-10-15 09:24:47,416 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 19) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-10-15 09:24:47,434 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment SmartHome-1.0.war
+2016-10-15 09:24:47,445 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'RoomDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:app/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:module/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:global/SmartHome-1.0/RoomDaoImpl
+	java:app/SmartHome-1.0/RoomDaoImpl
+	java:module/RoomDaoImpl
+
+2016-10-15 09:24:47,445 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'WebTargetProducer' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:app/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:module/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:global/SmartHome-1.0/WebTargetProducer
+	java:app/SmartHome-1.0/WebTargetProducer
+	java:module/WebTargetProducer
+
+2016-10-15 09:24:47,445 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'RoleDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:app/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:module/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:global/SmartHome-1.0/RoleDaoImpl
+	java:app/SmartHome-1.0/RoleDaoImpl
+	java:module/RoleDaoImpl
+
+2016-10-15 09:24:47,446 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'RestServiceImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:app/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:module/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:global/SmartHome-1.0/RestServiceImpl
+	java:app/SmartHome-1.0/RestServiceImpl
+	java:module/RestServiceImpl
+
+2016-10-15 09:24:47,446 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'UserDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:app/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:module/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:global/SmartHome-1.0/UserDaoImpl
+	java:app/SmartHome-1.0/UserDaoImpl
+	java:module/UserDaoImpl
+
+2016-10-15 09:24:47,569 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 19) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:24:47,581 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 19) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:24:47,585 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 19) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:24:47,586 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 19) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:24:47,593 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 19) WFLYCLINF0002: Started client-mappings cache from ejb container
+2016-10-15 09:24:47,843 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0006: Starting Services for CDI deployment: SmartHome-1.0.war
+2016-10-15 09:24:47,850 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0009: Starting weld service for deployment SmartHome-1.0.war
+2016-10-15 09:24:47,876 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 19) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'SmartHome-1.0.war#persistence'
+2016-10-15 09:24:48,883 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 19) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:350)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:285)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1319)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:496)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:626)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:598)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:590)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:429)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:747)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:138)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:66)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:234)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:208)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:217)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:667)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:319)
+	... 36 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 49 more
+
+2016-10-15 09:24:48,924 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator] (ServerService Thread Pool -- 19) HHH000342: Could not obtain connection to query metadata : javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:/jdbc/smarthome
+2016-10-15 09:24:48,924 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 19) MSC000001: Failed to start service jboss.persistenceunit."SmartHome-1.0.war#persistence": org.jboss.msc.service.StartException in service jboss.persistenceunit."SmartHome-1.0.war#persistence": org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:172)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:667)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:244)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:208)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:217)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	... 7 more
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:234)
+	... 19 more
+
+2016-10-15 09:24:48,927 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"SmartHome-1.0.war#persistence\"" => "org.jboss.msc.service.StartException in service jboss.persistenceunit.\"SmartHome-1.0.war#persistence\": org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+    Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+    Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set"}}
+2016-10-15 09:24:49,028 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "SmartHome-1.0.war" with deployment "SmartHome-1.0.war"
+2016-10-15 09:24:49,058 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."SmartHome-1.0.war".WeldBootstrapService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".WeldInstantiator, service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.WeldInterceptorBindingsService, service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.WeldInterceptorBindingsService, service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator, WFLYCTL0208: ... and 19 more ] 
+      service jboss.deployment.unit."SmartHome-1.0.war".WeldStartService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".WeldInstantiator, service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.WeldInterceptorBindingsService, service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.WeldInterceptorBindingsService, service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator, WFLYCTL0208: ... and 20 more ] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.VIEW."cz.bartos.smarthome.service.RestService".LOCAL (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.WeldInstantiator] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".moduleDeploymentRuntimeInformationStart, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.VIEW."cz.bartos.smarthome.dao.RoleDao".LOCAL (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.WeldInstantiator] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".moduleDeploymentRuntimeInformationStart, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.VIEW."cz.bartos.smarthome.dao.RoomDao".LOCAL (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.WeldInstantiator] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.VIEW."cz.bartos.smarthome.dao.UserDao".LOCAL (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.WeldInstantiator] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".moduleDeploymentRuntimeInformationStart, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.VIEW."cz.bartos.smarthome.service.WebTargetProducer".LOCAL (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".START (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".START (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".START (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".START (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".START (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".START (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".ee.ComponentRegistry (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".START, service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START, service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START, service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".START, WFLYCTL0208: ... and 6 more ] 
+      service jboss.naming.context.java.app."SmartHome-1.0".env (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".BeanManager (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultContextService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultDataSource (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedExecutorService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedScheduledExecutorService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedThreadFactory (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".EJBContext (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".TimerService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".TransactionSynchronizationRegistry (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".UserTransaction (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.RoleDaoImpl".entityManager (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START, service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.RoomDaoImpl".manager (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService, service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START] 
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.UserDaoImpl".entityManager (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService, service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START] 
+      service jboss.persistenceunit."SmartHome-1.0.war#persistence" (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START, service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".START, service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.RoleDaoImpl".entityManager, service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START, WFLYCTL0208: ... and 17 more ] 
+      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0" (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".codec (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".session (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service org.wildfly.request-controller.control-point."SmartHome-1.0.war".undertow (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."SmartHome-1.0.war#persistence": org.jboss.msc.service.StartException in service jboss.persistenceunit."SmartHome-1.0.war#persistence": org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+      service jboss.persistenceunit."SmartHome-1.0.war#persistence"
+
+2016-10-15 09:30:18,523 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 8) WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("deployment" => "SmartHome-1.0.war"),
+    ("subsystem" => "ejb3"),
+    ("singleton-bean" => "WebTargetProducer")
+]) - failure description: "WFLYEJB0370: EJB component for address [
+    (\"deployment\" => \"SmartHome-1.0.war\"),
+    (\"subsystem\" => \"ejb3\"),
+    (\"singleton-bean\" => \"WebTargetProducer\")
+] is in 
+ state DOWN, must be in state UP"
+2016-10-15 09:30:24,801 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 61) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'SmartHome-1.0.war#persistence'
+2016-10-15 09:30:24,818 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2016-10-15 09:30:24,823 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment SmartHome-1.0.war (runtime-name: SmartHome-1.0.war) in 24ms
+2016-10-15 09:30:24,824 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "SmartHome-1.0.war" (runtime-name: "SmartHome-1.0.war")
+2016-10-15 09:30:25,140 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for persistence
+2016-10-15 09:30:25,192 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'SmartHome-1.0.war#persistence'
+2016-10-15 09:30:25,193 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 62) HHH000204: Processing PersistenceUnitInfo [
+	name: persistence
+	...]
+2016-10-15 09:30:25,205 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 62) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-10-15 09:30:25,216 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment SmartHome-1.0.war
+2016-10-15 09:30:25,229 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'RoomDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:app/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:module/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:global/SmartHome-1.0/RoomDaoImpl
+	java:app/SmartHome-1.0/RoomDaoImpl
+	java:module/RoomDaoImpl
+
+2016-10-15 09:30:25,234 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'WebTargetProducer' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:app/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:module/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:global/SmartHome-1.0/WebTargetProducer
+	java:app/SmartHome-1.0/WebTargetProducer
+	java:module/WebTargetProducer
+
+2016-10-15 09:30:25,235 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'RoleDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:app/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:module/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:global/SmartHome-1.0/RoleDaoImpl
+	java:app/SmartHome-1.0/RoleDaoImpl
+	java:module/RoleDaoImpl
+
+2016-10-15 09:30:25,235 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'RestServiceImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:app/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:module/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:global/SmartHome-1.0/RestServiceImpl
+	java:app/SmartHome-1.0/RestServiceImpl
+	java:module/RestServiceImpl
+
+2016-10-15 09:30:25,236 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'UserDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:app/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:module/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:global/SmartHome-1.0/UserDaoImpl
+	java:app/SmartHome-1.0/UserDaoImpl
+	java:module/UserDaoImpl
+
+2016-10-15 09:30:25,366 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:30:25,368 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:30:25,375 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:30:25,376 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-10-15 09:30:25,406 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started client-mappings cache from ejb container
+2016-10-15 09:30:25,545 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0006: Starting Services for CDI deployment: SmartHome-1.0.war
+2016-10-15 09:30:25,549 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment SmartHome-1.0.war
+2016-10-15 09:30:25,562 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'SmartHome-1.0.war#persistence'
+2016-10-15 09:30:27,046 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 62) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-15 09:30:27,382 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 62) Envers integration enabled? : true
+2016-10-15 09:30:30,465 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 62) HHH000397: Using ASTQueryTranslatorFactory
+2016-10-15 09:30:30,754 INFO  [org.jboss.weld.Event] (MSC service thread 1-2) WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2016-10-15 09:30:32,355 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 63) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context '/SmartHome-1.0'
+2016-10-15 09:30:33,255 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 63) net.bootsfaces.listeners.AddResourcesListener ready for use.
+2016-10-15 09:30:33,324 WARNING [javax.enterprise.resource.webcontainer.jsf.managedbean] (ServerService Thread Pool -- 63) JSF1074: Managed bean named 'now' has already been registered.  Replacing existing managed bean class type java.util.Date with java.util.Date.
+2016-10-15 09:30:34,098 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 63) Running on PrimeFaces 5.1
+2016-10-15 09:30:34,098 INFO  [org.omnifaces.VersionLoggerEventListener] (ServerService Thread Pool -- 63) Using OmniFaces version 1.12.1
+2016-10-15 09:30:35,133 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002225: Deploying javax.ws.rs.core.Application: class cz.bartos.smarthome.api.ApiConfig
+2016-10-15 09:30:35,219 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0021: Registered web context: /SmartHome-1.0
+2016-10-15 09:30:35,273 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "SmartHome-1.0.war" with deployment "SmartHome-1.0.war"
+2016-10-15 09:30:35,274 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.WeldInstantiator] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".CREATE (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".START (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0", service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".START] 
+      service jboss.deployment.unit."SmartHome-1.0.war".moduleDeploymentRuntimeInformation (unavailable) dependents: [service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START, service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START, service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START] 
+      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0"] 
+WFLYCTL0185:    Newly corrected services:
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.CREATE (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.VIEW."cz.bartos.smarthome.dao.RoleDao".LOCAL (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.WeldInstantiator (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.ejb.non-functional-timerservice (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.VIEW."cz.bartos.smarthome.service.WebTargetProducer".LOCAL (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".JndiBindingsService (new available)
+      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".JndiBindingsService (new available)
+      service jboss.naming.context.java.app."SmartHome-1.0".env (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".BeanManager (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedScheduledExecutorService (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedThreadFactory (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".EJBContext (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".TransactionSynchronizationRegistry (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".UserTransaction (new available)
+      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env (new available)
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."SmartHome-1.0.war#persistence"
+
+2016-10-15 09:30:44,001 INFO  [stdout] (default task-16) Event is null - probably that's a bug in AJAXRenderer, roughly line 100
+2016-10-15 09:30:44,002 INFO  [stdout] (default task-16) Event is null - probably that's a bug in AJAXRenderer, roughly line 100
+2016-10-15 09:30:44,003 INFO  [stdout] (default task-16) Event is null - probably that's a bug in AJAXRenderer, roughly line 100
+2016-10-15 09:30:54,005 INFO  [stdout] (default task-32) {
+2016-10-15 09:30:54,005 INFO  [stdout] (default task-32)   "origin": "93.153.85.145"
+2016-10-15 09:30:54,005 INFO  [stdout] (default task-32) }
+2016-10-15 09:30:54,005 INFO  [stdout] (default task-32) 
+2016-10-15 20:27:17,041 INFO  [org.jboss.as.protocol] (management task-9) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 9,5,management-handler-thread]

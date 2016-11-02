@@ -1,0 +1,1 @@
+2016-10-25 19:07:48,561 INFO  [org.jboss.as.protocol] (management task-6) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 5,5,management-handler-thread]

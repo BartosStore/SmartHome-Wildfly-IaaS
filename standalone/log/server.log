@@ -1,0 +1,218 @@
+2016-11-02 17:10:16,841 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2016-11-02 17:10:17,102 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-11-02 17:10:17,192 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) starting
+2016-11-02 17:10:17,194 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	http.nonProxyHosts = localhost,127.0.0.1,Mira-PC
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Apps\wildfly-10.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_91\jre
+	java.io.tmpdir = C:\Users\Mira\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Users\Mira\AppData\Roaming\npm;C:\Users\Mira\AppData\Local\Microsoft\WindowsApps;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_91-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_91
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.91-b14
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Apps\wildfly-10.0.0.Final
+	jboss.host.name = mira-pc
+	jboss.http.port = 8080
+	jboss.management.http.port = 9990
+	jboss.modules.dir = C:\Apps\wildfly-10.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = mira-pc
+	jboss.qualified.host.name = mira-pc
+	jboss.server.base.dir = C:\Apps\wildfly-10.0.0.Final\standalone
+	jboss.server.config.dir = C:\Apps\wildfly-10.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Apps\wildfly-10.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Apps\wildfly-10.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Apps\wildfly-10.0.0.Final\standalone\log
+	jboss.server.name = mira-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Apps\wildfly-10.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Apps\wildfly-10.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Apps\wildfly-10.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Apps\wildfly-10.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_91\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Apps\wildfly-10.0.0.Final\jboss-modules.jar -mp C:\Apps\wildfly-10.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Apps\wildfly-10.0.0.Final -c standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = CZ
+	user.dir = C:\Apps\wildfly-10.0.0.Final\bin
+	user.home = C:\Users\Mira
+	user.language = cs
+	user.name = Mira
+	user.script = 
+	user.timezone = Europe/Prague
+	user.variant = 
+2016-11-02 17:10:17,196 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=standalone.bat -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,Mira-PC -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.http.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=C:\Apps\wildfly-10.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Apps\wildfly-10.0.0.Final\standalone\configuration/logging.properties 
+2016-11-02 17:10:26,189 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found SmartHome-1.0.war in deployment directory. To trigger deployment create a file called SmartHome-1.0.war.dodeploy
+2016-11-02 17:10:26,319 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-11-02 17:10:26,492 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.3.4.Final
+2016-11-02 17:10:26,530 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.3.4.Final
+2016-11-02 17:10:26,680 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-11-02 17:10:26,710 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-11-02 17:10:26,730 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-11-02 17:10:26,769 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-11-02 17:10:26,858 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-11-02 17:10:26,865 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-11-02 17:10:26,865 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-11-02 17:10:26,960 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2016-11-02 17:10:27,117 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2016-11-02 17:10:28,100 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.18.Final
+2016-11-02 17:10:29,032 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-11-02 17:10:29,048 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-11-02 17:10:29,099 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2016-11-02 17:10:29,101 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-11-02 17:10:29,198 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.3.15.Final starting
+2016-11-02 17:10:29,198 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.3.15.Final starting
+2016-11-02 17:10:30,576 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\Apps\wildfly-10.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2016-11-02 17:10:30,693 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2016-11-02 17:10:30,694 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2016-11-02 17:10:30,937 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2016-11-02 17:10:30,939 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2016-11-02 17:10:31,250 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2016-11-02 17:10:31,893 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-11-02 17:10:32,627 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Apps\wildfly-10.0.0.Final\standalone\deployments
+2016-11-02 17:10:32,833 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "SmartHome-1.0.war" (runtime-name: "SmartHome-1.0.war")
+2016-11-02 17:10:32,835 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "mysql-connector-java-5.1.36.jar" (runtime-name: "mysql-connector-java-5.1.36.jar")
+2016-11-02 17:10:34,100 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2016-11-02 17:10:34,100 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2016-11-02 17:10:34,100 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2016-11-02 17:10:34,101 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2016-11-02 17:10:35,607 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
+2016-11-02 17:10:36,180 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for persistence
+2016-11-02 17:10:36,812 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-11-02 17:10:36,816 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2016-11-02 17:10:36,930 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.36.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2016-11-02 17:10:36,930 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.36.jar_com.mysql.jdbc.Driver_5_1
+2016-11-02 17:10:36,939 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/jdbc/smarthome]
+2016-11-02 17:10:36,992 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'SmartHome-1.0.war#persistence'
+2016-11-02 17:10:38,652 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: persistence
+	...]
+2016-11-02 17:10:39,497 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment SmartHome-1.0.war
+2016-11-02 17:10:41,566 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {5.0.7.Final}
+2016-11-02 17:10:41,580 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2016-11-02 17:10:41,582 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2016-11-02 17:10:41,639 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.2.3.Final
+2016-11-02 17:10:42,392 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 59) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-11-02 17:10:42,462 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-11-02 17:10:42,662 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'RoomDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:app/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:module/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:global/SmartHome-1.0/RoomDaoImpl
+	java:app/SmartHome-1.0/RoomDaoImpl
+	java:module/RoomDaoImpl
+
+2016-11-02 17:10:42,663 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'WebTargetProducer' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:app/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:module/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:global/SmartHome-1.0/WebTargetProducer
+	java:app/SmartHome-1.0/WebTargetProducer
+	java:module/WebTargetProducer
+
+2016-11-02 17:10:42,663 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'RoleDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:app/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:module/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:global/SmartHome-1.0/RoleDaoImpl
+	java:app/SmartHome-1.0/RoleDaoImpl
+	java:module/RoleDaoImpl
+
+2016-11-02 17:10:42,663 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'RestServiceImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:app/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:module/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:global/SmartHome-1.0/RestServiceImpl
+	java:app/SmartHome-1.0/RestServiceImpl
+	java:module/RestServiceImpl
+
+2016-11-02 17:10:42,663 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'UserDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:app/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:module/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:global/SmartHome-1.0/UserDaoImpl
+	java:app/SmartHome-1.0/UserDaoImpl
+	java:module/UserDaoImpl
+
+2016-11-02 17:10:43,446 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-11-02 17:10:43,448 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-11-02 17:10:43,449 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-11-02 17:10:43,450 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-11-02 17:10:43,887 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0006: Starting Services for CDI deployment: SmartHome-1.0.war
+2016-11-02 17:10:44,050 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 2.3.2 (Final)
+2016-11-02 17:10:44,214 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0009: Starting weld service for deployment SmartHome-1.0.war
+2016-11-02 17:10:44,873 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started client-mappings cache from ejb container
+2016-11-02 17:10:45,077 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'SmartHome-1.0.war#persistence'
+2016-11-02 17:10:46,900 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-11-02 17:10:47,134 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 59) Envers integration enabled? : true
+2016-11-02 17:10:48,933 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2016-11-02 17:10:49,574 INFO  [org.jboss.weld.Event] (MSC service thread 1-5) WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2016-11-02 17:10:51,541 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 65) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context '/SmartHome-1.0'
+2016-11-02 17:10:52,475 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 65) net.bootsfaces.listeners.AddResourcesListener ready for use.
+2016-11-02 17:10:52,559 WARNING [javax.enterprise.resource.webcontainer.jsf.managedbean] (ServerService Thread Pool -- 65) JSF1074: Managed bean named 'now' has already been registered.  Replacing existing managed bean class type java.util.Date with java.util.Date.
+2016-11-02 17:10:53,295 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 65) Running on PrimeFaces 5.1
+2016-11-02 17:10:53,296 INFO  [org.omnifaces.VersionLoggerEventListener] (ServerService Thread Pool -- 65) Using OmniFaces version 1.12.1
+2016-11-02 17:10:54,440 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 65) RESTEASY002225: Deploying javax.ws.rs.core.Application: class cz.bartos.smarthome.api.ApiConfig
+2016-11-02 17:10:54,546 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: /SmartHome-1.0
+2016-11-02 17:10:54,891 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "mysql-connector-java-5.1.36.jar" (runtime-name : "mysql-connector-java-5.1.36.jar")
+2016-11-02 17:10:54,893 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "SmartHome-1.0.war" (runtime-name : "SmartHome-1.0.war")
+2016-11-02 17:10:55,515 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-11-02 17:10:55,516 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-11-02 17:10:55,517 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started in 39107ms - Started 537 of 811 services (391 services are lazy, passive or on-demand)
