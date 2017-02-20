@@ -1,2 +1,2 @@
-standalone/log
-standalone/deployments
+/standalone/log/
+/standalone/deployments/

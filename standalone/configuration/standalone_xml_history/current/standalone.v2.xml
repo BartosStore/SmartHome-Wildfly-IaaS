@@ -145,8 +145,7 @@
                 </datasource>
                 <datasource jta="true" jndi-name="java:/jdbc/smarthome" pool-name="smarthome" enabled="true" use-ccm="true">
                     <connection-url>jdbc:mysql://localhost:3306/smarthome</connection-url>
-                    <driver-class>com.mysql.jdbc.Driver</driver-class>
-                    <driver>mysql-connector-java-5.1.36.jar_com.mysql.jdbc.Driver_5_1</driver>
+                    <driver>mysql</driver>
                     <security>
                         <user-name>admin</user-name>
                         <password>admin</password>
@@ -158,6 +157,9 @@
                     </validation>
                 </datasource>
                 <drivers>
+                    <driver name="mysql" module="com.mysql">
+                        <driver-class>com.mysql.jdbc.Driver</driver-class>
+                    </driver>
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
                     </driver>
@@ -419,10 +421,4 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
-
-    <deployments>
-        <deployment name="mysql-connector-java-5.1.36.jar" runtime-name="mysql-connector-java-5.1.36.jar">
-            <content sha1="6bb5861f44c21c775ee713a438e5bc493c095f7a"/>
-        </deployment>
-    </deployments>
 </server>

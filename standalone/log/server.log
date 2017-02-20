@@ -1,18 +1,146 @@
-2017-02-16 19:40:16,729 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: /SmartHome-1.0
-2017-02-16 19:40:17,219 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0010: Stopping weld service for deployment SmartHome-1.0.war
-2017-02-16 19:40:17,375 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'SmartHome-1.0.war#persistence'
-2017-02-16 19:40:17,382 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'SmartHome-1.0.war#persistence'
-2017-02-16 19:40:17,412 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped client-mappings cache from ejb container
-2017-02-16 19:40:17,905 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment SmartHome-1.0.war (runtime-name: SmartHome-1.0.war) in 1263ms
-2017-02-16 19:40:17,906 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "SmartHome-1.0.war" (runtime-name: "SmartHome-1.0.war")
-2017-02-16 19:40:19,896 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for persistence
-2017-02-16 19:40:19,998 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'SmartHome-1.0.war#persistence'
-2017-02-16 19:40:19,999 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 78) HHH000204: Processing PersistenceUnitInfo [
+2017-02-20 19:29:19,954 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2017-02-20 19:29:20,276 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-02-20 19:29:20,382 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) starting
+2017-02-20 19:29:20,384 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	http.nonProxyHosts = localhost,127.0.0.1,Mira-PC
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Apps\wildfly-10.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_91\jre
+	java.io.tmpdir = C:\Users\Mira\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Users\Mira\AppData\Roaming\npm;C:\Users\Mira\AppData\Local\Microsoft\WindowsApps;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_91-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_91
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.91-b14
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Apps\wildfly-10.0.0.Final
+	jboss.host.name = mira-pc
+	jboss.http.port = 8080
+	jboss.management.http.port = 9990
+	jboss.modules.dir = C:\Apps\wildfly-10.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = mira-pc
+	jboss.qualified.host.name = mira-pc
+	jboss.server.base.dir = C:\Apps\wildfly-10.0.0.Final\standalone
+	jboss.server.config.dir = C:\Apps\wildfly-10.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Apps\wildfly-10.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Apps\wildfly-10.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Apps\wildfly-10.0.0.Final\standalone\log
+	jboss.server.name = mira-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Apps\wildfly-10.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Apps\wildfly-10.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Apps\wildfly-10.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Apps\wildfly-10.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_91\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Apps\wildfly-10.0.0.Final\jboss-modules.jar -mp C:\Apps\wildfly-10.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Apps\wildfly-10.0.0.Final -c standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = CZ
+	user.dir = C:\Apps\wildfly-10.0.0.Final\bin
+	user.home = C:\Users\Mira
+	user.language = cs
+	user.name = Mira
+	user.script = 
+	user.timezone = Europe/Prague
+	user.variant = 
+2017-02-20 19:29:20,385 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=standalone.bat -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,Mira-PC -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.http.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=C:\Apps\wildfly-10.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Apps\wildfly-10.0.0.Final\standalone\configuration/logging.properties 
+2017-02-20 19:29:23,001 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found SmartHome-1.0.war in deployment directory. To trigger deployment create a file called SmartHome-1.0.war.dodeploy
+2017-02-20 19:29:23,034 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-02-20 19:29:23,064 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.4.Final
+2017-02-20 19:29:23,075 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.4.Final
+2017-02-20 19:29:23,208 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.18.Final
+2017-02-20 19:29:23,350 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-02-20 19:29:23,358 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-02-20 19:29:23,389 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2017-02-20 19:29:23,508 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-02-20 19:29:23,702 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2017-02-20 19:29:23,714 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2017-02-20 19:29:23,727 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2017-02-20 19:29:23,777 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2017-02-20 19:29:23,843 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-02-20 19:29:23,868 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = mysql
+2017-02-20 19:29:23,937 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.3.15.Final starting
+2017-02-20 19:29:23,980 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-02-20 19:29:23,965 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.3.15.Final starting
+2017-02-20 19:29:23,987 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-02-20 19:29:23,989 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-02-20 19:29:24,270 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2017-02-20 19:29:24,285 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-02-20 19:29:24,412 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-02-20 19:29:24,413 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-02-20 19:29:24,541 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\Apps\wildfly-10.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-02-20 19:29:24,576 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2017-02-20 19:29:24,579 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2017-02-20 19:29:24,749 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-02-20 19:29:25,072 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Apps\wildfly-10.0.0.Final\standalone\deployments
+2017-02-20 19:29:25,087 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "SmartHome-1.0.war" (runtime-name: "SmartHome-1.0.war")
+2017-02-20 19:29:25,628 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2017-02-20 19:29:25,676 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:/jdbc/smarthome]
+2017-02-20 19:29:25,677 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-02-20 19:29:26,644 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
+2017-02-20 19:29:27,269 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for persistence
+2017-02-20 19:29:27,596 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'SmartHome-1.0.war#persistence'
+2017-02-20 19:29:27,635 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
 	name: persistence
 	...]
-2017-02-16 19:40:20,137 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment SmartHome-1.0.war
-2017-02-16 19:40:20,374 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 78) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
-2017-02-16 19:40:20,493 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'RoomDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+2017-02-20 19:29:27,876 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment SmartHome-1.0.war
+2017-02-20 19:29:27,876 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 58) HHH000412: Hibernate Core {5.0.7.Final}
+2017-02-20 19:29:27,878 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000206: hibernate.properties not found
+2017-02-20 19:29:27,880 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000021: Bytecode provider name : javassist
+2017-02-20 19:29:27,983 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 58) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2017-02-20 19:29:28,045 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 58) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-02-20 19:29:28,521 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.2.3.Final
+2017-02-20 19:29:28,640 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'RoomDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
 
 	java:global/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
 	java:app/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
@@ -21,7 +149,7 @@
 	java:app/SmartHome-1.0/RoomDaoImpl
 	java:module/RoomDaoImpl
 
-2017-02-16 19:40:20,496 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'WebTargetProducer' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+2017-02-20 19:29:28,640 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'WebTargetProducer' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
 
 	java:global/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
 	java:app/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
@@ -30,7 +158,7 @@
 	java:app/SmartHome-1.0/WebTargetProducer
 	java:module/WebTargetProducer
 
-2017-02-16 19:40:20,499 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'RoleDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+2017-02-20 19:29:28,641 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'RoleDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
 
 	java:global/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
 	java:app/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
@@ -39,7 +167,7 @@
 	java:app/SmartHome-1.0/RoleDaoImpl
 	java:module/RoleDaoImpl
 
-2017-02-16 19:40:20,502 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'RestServiceImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+2017-02-20 19:29:28,641 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'RestServiceImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
 
 	java:global/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
 	java:app/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
@@ -48,7 +176,7 @@
 	java:app/SmartHome-1.0/RestServiceImpl
 	java:module/RestServiceImpl
 
-2017-02-16 19:40:20,503 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'UserDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+2017-02-20 19:29:28,641 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'UserDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
 
 	java:global/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
 	java:app/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
@@ -57,112 +185,112 @@
 	java:app/SmartHome-1.0/UserDaoImpl
 	java:module/UserDaoImpl
 
-2017-02-16 19:40:21,279 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 78) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2017-02-16 19:40:21,280 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 78) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2017-02-16 19:40:21,281 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 78) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2017-02-16 19:40:21,282 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 78) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2017-02-16 19:40:21,306 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0002: Started client-mappings cache from ejb container
-2017-02-16 19:40:21,527 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0006: Starting Services for CDI deployment: SmartHome-1.0.war
-2017-02-16 19:40:21,537 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0009: Starting weld service for deployment SmartHome-1.0.war
-2017-02-16 19:40:21,588 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'SmartHome-1.0.war#persistence'
-2017-02-16 19:40:21,620 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 78) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2017-02-16 19:40:21,695 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 78) Envers integration enabled? : true
-2017-02-16 19:40:21,828 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 78) HHH000397: Using ASTQueryTranslatorFactory
-2017-02-16 19:40:21,856 INFO  [org.jboss.weld.Event] (MSC service thread 1-8) WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
-2017-02-16 19:40:22,413 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 76) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context '/SmartHome-1.0'
-2017-02-16 19:40:23,259 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 76) net.bootsfaces.listeners.AddResourcesListener ready for use.
-2017-02-16 19:40:23,310 WARNING [javax.enterprise.resource.webcontainer.jsf.managedbean] (ServerService Thread Pool -- 76) JSF1074: Managed bean named 'now' has already been registered.  Replacing existing managed bean class type java.util.Date with java.util.Date.
-2017-02-16 19:40:23,653 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 76) Running on PrimeFaces 5.1
-2017-02-16 19:40:23,653 INFO  [org.omnifaces.VersionLoggerEventListener] (ServerService Thread Pool -- 76) Using OmniFaces version 1.12.1
-2017-02-16 19:40:24,161 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 76) RESTEASY002225: Deploying javax.ws.rs.core.Application: class cz.bartos.smarthome.api.ApiConfig
-2017-02-16 19:40:24,167 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0021: Registered web context: /SmartHome-1.0
-2017-02-16 19:40:24,425 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "SmartHome-1.0.war" with deployment "SmartHome-1.0.war"
-2017-02-16 19:40:24,426 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
-WFLYCTL0185:    Newly corrected services:
-      service jboss.deployment.unit."SmartHome-1.0.war".WeldBootstrapService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".WeldStartService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.CREATE (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.VIEW."cz.bartos.smarthome.service.RestService".LOCAL (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.WeldInstantiator (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RestServiceImpl.ejb.non-functional-timerservice (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.CREATE (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.VIEW."cz.bartos.smarthome.dao.RoleDao".LOCAL (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.WeldInstantiator (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RoleDaoImpl.ejb.non-functional-timerservice (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.CREATE (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.VIEW."cz.bartos.smarthome.dao.RoomDao".LOCAL (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.WeldInstantiator (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.WeldInterceptorBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.RoomDaoImpl.ejb.non-functional-timerservice (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.CREATE (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.VIEW."cz.bartos.smarthome.dao.UserDao".LOCAL (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.WeldInstantiator (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.UserDaoImpl.ejb.non-functional-timerservice (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component.WebTargetProducer.WeldInstantiator (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".CREATE (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."com.sun.faces.config.ConfigureListener".WeldInstantiator (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."cz.bartos.smarthome.filter.AuthorizationFilter".WeldInstantiator (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.faces.webapp.FacetTag".START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".CREATE (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".WeldInstantiator (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".CREATE (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."managed-bean.java.util.Date".WeldInstantiator (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldInitialListener".START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".CREATE (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."org.jboss.weld.servlet.WeldTerminalListener".WeldInstantiator (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".CREATE (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".JndiBindingsService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".START (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".WeldInstantiator (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".ee.ComponentRegistry (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".jndiDependencyService (new available)
-      service jboss.deployment.unit."SmartHome-1.0.war".moduleDeploymentRuntimeInformation (new available)
-      service jboss.naming.context.java.app."SmartHome-1.0".env (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".BeanManager (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultContextService (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultDataSource (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedExecutorService (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedScheduledExecutorService (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".DefaultManagedThreadFactory (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".EJBContext (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".TimerService (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".TransactionSynchronizationRegistry (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".UserTransaction (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.RoleDaoImpl".entityManager (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.RoomDaoImpl".manager (new available)
-      service jboss.naming.context.java.module."SmartHome-1.0"."SmartHome-1.0".env."cz.bartos.smarthome.dao.UserDaoImpl".entityManager (new available)
-      service jboss.persistenceunit."SmartHome-1.0.war#persistence" (new available)
-      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0" (new available)
-      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".UndertowDeploymentInfoService (new available)
-      service jboss.undertow.deployment.default-server.default-host."/SmartHome-1.0".codec (new available)
+2017-02-20 19:29:28,949 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-02-20 19:29:28,952 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-02-20 19:29:28,953 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-02-20 19:29:28,954 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-02-20 19:29:29,174 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0006: Starting Services for CDI deployment: SmartHome-1.0.war
+2017-02-20 19:29:29,217 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 2.3.2 (Final)
+2017-02-20 19:29:29,288 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0009: Starting weld service for deployment SmartHome-1.0.war
+2017-02-20 19:29:29,389 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-02-20 19:29:29,543 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'SmartHome-1.0.war#persistence'
+2017-02-20 19:29:29,975 ERROR [stderr] (ServerService Thread Pool -- 58) Mon Feb 20 19:29:29 CET 2017 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2017-02-20 19:29:30,156 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-02-20 19:29:30,226 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 58) Envers integration enabled? : true
+2017-02-20 19:29:30,829 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 58) HHH000397: Using ASTQueryTranslatorFactory
+2017-02-20 19:29:31,031 INFO  [org.jboss.weld.Event] (MSC service thread 1-5) WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2017-02-20 19:29:31,904 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 60) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context '/SmartHome-1.0'
+2017-02-20 19:29:32,714 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 60) net.bootsfaces.listeners.AddResourcesListener ready for use.
+2017-02-20 19:29:32,772 WARNING [javax.enterprise.resource.webcontainer.jsf.managedbean] (ServerService Thread Pool -- 60) JSF1074: Managed bean named 'now' has already been registered.  Replacing existing managed bean class type java.util.Date with java.util.Date.
+2017-02-20 19:29:33,332 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 60) Running on PrimeFaces 5.1
+2017-02-20 19:29:33,333 INFO  [org.omnifaces.VersionLoggerEventListener] (ServerService Thread Pool -- 60) Using OmniFaces version 1.12.1
+2017-02-20 19:29:33,904 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 60) RESTEASY002225: Deploying javax.ws.rs.core.Application: class cz.bartos.smarthome.api.ApiConfig
+2017-02-20 19:29:34,116 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 60) WFLYUT0021: Registered web context: /SmartHome-1.0
+2017-02-20 19:29:34,382 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "SmartHome-1.0.war" (runtime-name : "SmartHome-1.0.war")
+2017-02-20 19:29:34,653 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-02-20 19:29:34,653 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-02-20 19:29:34,654 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started in 15116ms - Started 500 of 768 services (383 services are lazy, passive or on-demand)
+2017-02-20 19:29:36,202 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 13) WFLYUT0022: Unregistered web context: /SmartHome-1.0
+2017-02-20 19:29:36,227 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0010: Stopping weld service for deployment SmartHome-1.0.war
+2017-02-20 19:29:36,267 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 29) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'SmartHome-1.0.war#persistence'
+2017-02-20 19:29:36,271 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 29) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'SmartHome-1.0.war#persistence'
+2017-02-20 19:29:36,318 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2017-02-20 19:29:36,409 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment SmartHome-1.0.war (runtime-name: SmartHome-1.0.war) in 217ms
+2017-02-20 19:29:36,552 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0009: Undeployed "SmartHome-1.0.war" (runtime-name: "SmartHome-1.0.war")
+2017-02-20 19:29:39,505 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found SmartHome-1.0.war in deployment directory. To trigger deployment create a file called SmartHome-1.0.war.dodeploy
+2017-02-20 19:29:39,515 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "SmartHome-1.0.war" (runtime-name: "SmartHome-1.0.war")
+2017-02-20 19:29:39,855 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for persistence
+2017-02-20 19:29:39,930 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 29) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'SmartHome-1.0.war#persistence'
+2017-02-20 19:29:39,931 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 29) HHH000204: Processing PersistenceUnitInfo [
+	name: persistence
+	...]
+2017-02-20 19:29:39,942 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 29) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2017-02-20 19:29:39,954 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment SmartHome-1.0.war
+2017-02-20 19:29:39,989 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'RoomDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
 
+	java:global/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:app/SmartHome-1.0/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:module/RoomDaoImpl!cz.bartos.smarthome.dao.RoomDao
+	java:global/SmartHome-1.0/RoomDaoImpl
+	java:app/SmartHome-1.0/RoomDaoImpl
+	java:module/RoomDaoImpl
+
+2017-02-20 19:29:39,990 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'WebTargetProducer' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:app/SmartHome-1.0/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:module/WebTargetProducer!cz.bartos.smarthome.service.WebTargetProducer
+	java:global/SmartHome-1.0/WebTargetProducer
+	java:app/SmartHome-1.0/WebTargetProducer
+	java:module/WebTargetProducer
+
+2017-02-20 19:29:39,990 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'RoleDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:app/SmartHome-1.0/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:module/RoleDaoImpl!cz.bartos.smarthome.dao.RoleDao
+	java:global/SmartHome-1.0/RoleDaoImpl
+	java:app/SmartHome-1.0/RoleDaoImpl
+	java:module/RoleDaoImpl
+
+2017-02-20 19:29:39,990 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'RestServiceImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:app/SmartHome-1.0/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:module/RestServiceImpl!cz.bartos.smarthome.service.RestService
+	java:global/SmartHome-1.0/RestServiceImpl
+	java:app/SmartHome-1.0/RestServiceImpl
+	java:module/RestServiceImpl
+
+2017-02-20 19:29:39,990 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'UserDaoImpl' in deployment unit 'deployment "SmartHome-1.0.war"' are as follows:
+
+	java:global/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:app/SmartHome-1.0/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:module/UserDaoImpl!cz.bartos.smarthome.dao.UserDao
+	java:global/SmartHome-1.0/UserDaoImpl
+	java:app/SmartHome-1.0/UserDaoImpl
+	java:module/UserDaoImpl
+
+2017-02-20 19:29:40,115 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 29) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-02-20 19:29:40,116 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 29) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-02-20 19:29:40,118 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 29) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-02-20 19:29:40,119 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 29) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-02-20 19:29:40,140 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-02-20 19:29:40,287 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0006: Starting Services for CDI deployment: SmartHome-1.0.war
+2017-02-20 19:29:40,294 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0009: Starting weld service for deployment SmartHome-1.0.war
+2017-02-20 19:29:40,302 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 29) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'SmartHome-1.0.war#persistence'
+2017-02-20 19:29:40,304 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 29) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-02-20 19:29:40,331 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 29) Envers integration enabled? : true
+2017-02-20 19:29:40,402 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 29) HHH000397: Using ASTQueryTranslatorFactory
+2017-02-20 19:29:40,414 INFO  [org.jboss.weld.Event] (MSC service thread 1-8) WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2017-02-20 19:29:40,746 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 3) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context '/SmartHome-1.0'
+2017-02-20 19:29:41,081 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 3) net.bootsfaces.listeners.AddResourcesListener ready for use.
+2017-02-20 19:29:41,123 WARNING [javax.enterprise.resource.webcontainer.jsf.managedbean] (ServerService Thread Pool -- 3) JSF1074: Managed bean named 'now' has already been registered.  Replacing existing managed bean class type java.util.Date with java.util.Date.
+2017-02-20 19:29:41,433 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 3) Running on PrimeFaces 5.1
+2017-02-20 19:29:41,433 INFO  [org.omnifaces.VersionLoggerEventListener] (ServerService Thread Pool -- 3) Using OmniFaces version 1.12.1
+2017-02-20 19:29:41,500 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 3) RESTEASY002225: Deploying javax.ws.rs.core.Application: class cz.bartos.smarthome.api.ApiConfig
+2017-02-20 19:29:41,505 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 3) WFLYUT0021: Registered web context: /SmartHome-1.0
+2017-02-20 19:29:41,553 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "SmartHome-1.0.war" (runtime-name : "SmartHome-1.0.war")
+2017-02-20 19:30:03,991 INFO  [stdout] (default task-6) Event is null - probably that's a bug in AJAXRenderer, roughly line 100
+2017-02-20 19:30:03,992 INFO  [stdout] (default task-6) Event is null - probably that's a bug in AJAXRenderer, roughly line 100
+2017-02-20 19:30:03,992 INFO  [stdout] (default task-6) Event is null - probably that's a bug in AJAXRenderer, roughly line 100
