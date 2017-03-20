@@ -34,16 +34,6 @@
 
     <management>
         <security-realms>
-            <security-realm name="SSLRealm">
-                <server-identities>
-                    <ssl>
-                        <keystore path="${jboss.server.config.dir}/wfly.keystore" keystore-password="mypassword"/>
-                    </ssl>
-                </server-identities>
-                <authentication>
-                    <truststore path="${jboss.server.config.dir}/jbossClient.keystore" keystore-password="clientPassword"/>
-                </authentication>
-            </security-realm>
             <security-realm name="ManagementRealm">
                 <authentication>
                     <local default-user="$local" skip-group-loading="true"/>
@@ -154,7 +144,7 @@
                     </security>
                 </datasource>
                 <datasource jta="true" jndi-name="java:/jdbc/smarthome" pool-name="smarthome" enabled="true" use-ccm="true">
-                    <connection-url>jdbc:mysql://localhost:3306/smarthome?useSSL=true</connection-url>
+                    <connection-url>jdbc:mysql://localhost:3306/smarthome</connection-url>
                     <driver>mysql</driver>
                     <security>
                         <user-name>admin</user-name>
@@ -323,7 +313,7 @@
         <subsystem xmlns="urn:jboss:domain:pojo:1.0"/>
         <subsystem xmlns="urn:jboss:domain:remoting:3.0">
             <endpoint/>
-            <http-connector name="http-remoting-connector" connector-ref="default" security-realm="SSLRealm"/>
+            <http-connector name="http-remoting-connector" connector-ref="default" security-realm="ApplicationRealm"/>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:resource-adapters:4.0"/>
         <subsystem xmlns="urn:jboss:domain:request-controller:1.0"/>
@@ -378,7 +368,7 @@
         <subsystem xmlns="urn:jboss:domain:undertow:3.0">
             <buffer-cache name="default"/>
             <server name="default-server">
-                <https-listener name="default" security-realm="SSLRealm" socket-binding="https"/>
+                <http-listener name="default" socket-binding="http" redirect-socket="https"/>
                 <host name="default-host" alias="localhost">
                     <location name="/" handler="welcome-content"/>
                     <filter-ref name="server-header"/>
